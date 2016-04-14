@@ -7,9 +7,9 @@ body{
 
 #panda{
     
-    width: 55vw;
-    height: auto;
-    margin-left: 23vw;
+    width: auto;
+    height: 25vh;
+    margin-left: 31vw;
     margin-top: 5vh;
 }
 
@@ -46,4 +46,10 @@ body{
   color: red;
     background-color: transparent;
     border: 0px;
+}
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -8vh;
 }
