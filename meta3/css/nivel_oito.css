@@ -5,31 +5,34 @@ body{
     width: 100vw;
 }
 
+h1{
+    margin-top: 0vw;
+    position: inline-block;
+}
+
 #panda{
-    
-    width: auto;
+   width: auto;
     height: 25vh;
-    margin-left: 31vw;
-    margin-top: 5vh;
+    margin-left: 32vw;
+    margin-top: 56.5vh;
 }
 
-#bambu{
-    width: 7vw;
-    height: auto;
-    margin-left: 47vw;
-    margin-top: 15vh;
-}
 
+#bambubaby{
+   width: 1vw;
+   height: auto;
+   margin-left: -3.5vw;
+   margin-top: -1.5vh; 
+}
 
 .modal-header{
     text-align: center;
-   
 }
 
 #pandaTriste{
     width: 20vw;
     height: auto;
-    margin-left: 30%;
+    margin-left: 5%;
 }
 
 .modal-footer{
@@ -37,11 +40,13 @@ body{
 }
 
 #close{
-    margin-left: 85vw;
+    margin-left: 87vw;
     color: red;
+    border: black;
     background-color: transparent;
     border: 0px;
 }
+
 #contador{
     margin-right: 5vw;
     text-align: right;
