@@ -1,0 +1,63 @@
+.center{
+    text-align: center;
+}
+body{
+    width: 100vw;
+    background-color: beige;
+}
+
+h1{
+    margin-top: 0vw;
+    position: inline-block;
+}
+
+#panda{
+    bottom: 0vh;
+    width: auto;
+    height: 25vh;
+    margin-left: 31vw;
+    margin-top: 10.2vh;
+ 
+}
+
+
+#bambu_invertido{
+    width: 7vw;
+    height: auto;
+    margin-left: 47vw;
+    margin-top: 15vh;
+}
+
+.modal-header{
+    text-align: center;
+}
+
+#pandaTriste{
+    width: 20vw;
+    height: auto;
+    margin-left: 5%;
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+#close{
+    margin-left: 87vw;
+    color: red;
+    border: black;
+    background-color: transparent;
+    border: 0px;
+}
+
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -8vh;
+}
+
+p{
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
