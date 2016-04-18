@@ -5,5 +5,5 @@ $("body").on("click", function(){
 });
 $("#bambu").on("click", function(){
     $(this).load("nivel_dois.html");
-    window.open("nivel_dois.html");
+    window.open("nivel_dois.html","_self");
 });

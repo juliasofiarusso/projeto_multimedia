@@ -1,12 +1,11 @@
-var clicks=0;
+var clicks=sessionStorage.getItem("c");
 $("body").on("click", function(){
     clicks++;
     $("#contador").text('Clicks: ' + clicks);
-     sessionStorage . setItem (" c ", clicks);
-    console.log("clicks: " + clicks);
+     console.log("clicks: " + clicks);
 });
 
-var seconds=0;
+var seconds=sessionStorage . getItem (" seg ");
 var timer = setInterval(
     function() {
         seconds++;
@@ -16,5 +15,4 @@ var timer = setInterval(
 );
 
 sessionStorage . removeItem (" seg ");
-sessionStorage . removeItem (" c");
 sessionStorage . clear ();
