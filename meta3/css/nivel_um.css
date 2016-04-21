@@ -11,6 +11,7 @@ body{
     height: 25vh;
     margin-left: 31vw;
     margin-top: 5vh;
+    position: fixed;
 }
 
 #bambu{
