@@ -1,0 +1,65 @@
+.center{
+    text-align: center;
+}
+body{
+    width: 100vw;
+}
+
+#bambu_mini{
+ 
+    width: auto;
+    height: 10vh;
+    margin-left: 46vw;
+    margin-top: 2vh;
+    
+    
+}
+#panda{
+    
+    width: auto;
+    height: 25vh;
+    margin-left: 29vw;
+    margin-top: 1vh;
+}
+
+#labirinto{
+    
+    height: auto;
+    margin-left: 42vw;
+   
+    
+}
+
+#close
+    margin-left: 87vw;
+     margin-top: 0vh;
+}
+
+.modal-header{
+    text-align: center;
+   
+}
+
+#pandaTriste{
+    width: 20vw;
+    height: auto;
+    margin-left: 30%;
+}
+
+.modal-footer{
+    text-align: center;
+}
+#close{
+    margin-left: 85vw;
+}
+#close{
+  color: red;
+    background-color: transparent;
+    border: 0px;
+}
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -8vh;
+}
