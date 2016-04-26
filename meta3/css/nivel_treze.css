@@ -13,11 +13,16 @@ body{
     margin-top: 5vh;
 }
 
-#bambu{
-    width: 7vw;
-    height: auto;
-    margin-left: 47vw;
-    margin-top: 15vh;
+.bambu{
+    width: auto;
+    height: 15.5vh;
+    padding: 7%;
+    opacity: 1;
+}
+#bambus{
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -47,16 +52,4 @@ body{
     text-align: right;
     display: block;
     margin-top: -8vh;
-}
-#bambus{
-  margin-top: 7vh;
-    margin-left: 45%;
-}
-#bambu_menor{
-    width: 4vw;
-    height: auto;
-}
-#bambu_maior{
-    width: 9vw;
-    height: auto;
 }

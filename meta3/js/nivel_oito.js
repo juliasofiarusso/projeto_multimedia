@@ -1,10 +1,10 @@
 var clicks=0;
-$("body").on("click", function(){
-    clicks++;
-    $("#contador").text('clicks:' + clicks);
-});
+var seconds=0;
+sessionStorage.setItem ("click", clicks);
+sessionStorage.setItem ("seg", seconds);
 
 $("#bambu").on("click", function(){
     $(this).load("nivel_nove.html");
-    window.open("nivel_nove.html");
+    window.open("nivel_nove.html","_self");
 });
+
