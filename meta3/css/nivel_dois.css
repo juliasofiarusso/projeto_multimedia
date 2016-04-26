@@ -13,11 +13,9 @@ body{
     margin-top: 5vh;
 }
 
-#bambu{
-    width: 7vw;
-    height: auto;
-    margin-left: 47vw;
-    margin-top: 15vh;
+table#grelha {
+    
+    border-collapse: collapse;
 }
 
 #close

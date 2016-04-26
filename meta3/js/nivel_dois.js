@@ -3,7 +3,10 @@ $("body").on("click", function(){
     clicks++;
     $("#contador").text('clicks:' + clicks);
 });
-$("#bambu").on("click", function(){
-    $(this).load("nivel_dois.html");
-    window.open("nivel_dois.html");
+$("#bambu2").on("click", function(){
+    $(this).load("nivel_tres.html");
+    window.open("nivel_tres.html");
 });
+
+
+        
