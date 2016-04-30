@@ -1,19 +1,20 @@
 .center{
     text-align: center;
 }
-
 body{
     width: 100vw;
-   
+    height: 100vh;
 }
 
 #panda{
     
+
     width: auto;
     height: 25vh;
     margin-left: 31vw;
     margin-top: 5vh;
 }
+
 
 #bambu{
     width: 7vw;
@@ -51,18 +52,15 @@ body{
     margin-top: -8vh;
 }
 
+
  #circle {
       width: 200px;
       height: 200px;
       border-radius: 200px;
       background-color:yellow;
+      position:absolute;
       
     }
 
-#overlay{
-    background: -moz-radial-gradient(transparent 150px, rgba(0,0,0,1) 150px);
-  background: -webkit-radial-gradient(transparent 150px, rgba(0,0,0,1) 150px);
-  background: -ms-radial-gradient(transparent 150px, rgba(0,0,0,1) 150px);
-  background: -o-radial-gradient(transparent 150px, rgba(0,0,0,1) 150px);
-  pointer-events: none; /* send mouse events beneath this layer */
-}
+
+
