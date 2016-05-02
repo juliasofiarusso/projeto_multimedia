@@ -1,10 +1,7 @@
-var clicks=0;
-var seconds=0;
-sessionStorage.setItem ("click", clicks);
-sessionStorage.setItem ("seg", seconds);
 
-var t= seconds.toString();
-var c= clicks.toString();
-document.write("Perdeste " + t + " segundos a fazer "+ c +" clicks");
+var t= sessionStorage.getItem("click");
+var c= sessionStorage.getItem("seg");
+ console.log("tempo: "+ t + "clicks: " + c);
+$("#frase").text("Fizeste "+ c.toString() +" clicks");
 
        

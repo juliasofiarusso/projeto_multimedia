@@ -14,6 +14,3 @@ var timer = setInterval(
         console.log(seconds);
     }, 1000
 );
-sessionStorage.removeItem("seg");
-sessionStorage.removeItem("c");
-sessionStorage.clear();
