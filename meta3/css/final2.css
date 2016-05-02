@@ -1,0 +1,50 @@
+.center{
+    text-align: center;
+}
+body{
+    width: 100vw;
+}
+
+#panda{
+    
+    width: auto;
+    height: 25vh;
+    margin-left: 31vw;
+    margin-top: 5vh;
+}
+
+#bambu{
+    width: 7vw;
+    height: auto;
+    margin-left: 47vw;
+    margin-top: 15vh;
+}
+
+
+.modal-header{
+    text-align: center;
+   
+}
+
+#pandaTriste{
+    width: 20vw;
+    height: auto;
+    margin-left: 30%;
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+#close{
+    margin-left: 85vw;
+    color: red;
+    background-color: transparent;
+    border: 0px;
+}
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -8vh;
+}
