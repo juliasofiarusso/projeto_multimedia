@@ -1,0 +1,63 @@
+.center{
+    text-align: center;
+}
+body{
+    width: 100vw;
+}
+
+#panda{
+    
+    width: auto;
+    height: 25vh;
+    margin-left: 31vw;
+    margin-top: 5vh;
+}
+#botao1, #botao2{
+    width: 7vw;
+    height: auto;
+}
+#sombra1 , #sombra2, #sombra3, #sombra4, #sombra5{
+    width: 4vw;
+    height: auto;
+
+}
+
+#sombrass{
+     
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#close
+    margin-left: 87vw;
+     margin-top: 0vh;
+}
+
+.modal-header{
+    text-align: center;
+   
+}
+
+#pandaTriste{
+    width: 20vw;
+    height: auto;
+    margin-left: 30%;
+}
+
+.modal-footer{
+    text-align: center;
+}
+#close{
+    margin-left: 85vw;
+}
+#close{
+  color: red;
+    background-color: transparent;
+    border: 0px;
+}
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -8vh;
+}
