@@ -1,11 +1,14 @@
 var total=0;
-    $(".bambu").on("click", function(){
-  $(this).animate({opacity: "0"});  
+var click=new Array();
+
+$(".bambu").on("click", function(){
+    console.log(".bambu");
         total++;
-        console.log(total);
-        if(total===33){
+    $(this).attr('class', 'bambuclicked');
+        console.log("total: "+total);
+        if(total==33){
      $(this).load("nivel_catorze.html");
-    window.open("nivel_catorze.html");
+    window.open(" nivel_catorze.html","_self");
 }
 
  });
