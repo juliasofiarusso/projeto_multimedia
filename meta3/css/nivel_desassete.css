@@ -1,0 +1,49 @@
+.center{
+    text-align: center;
+}
+body{
+    width: 100vw;
+}
+
+#panda{
+    width: auto;
+    height: 25vh;
+    left: 31vw;
+    margin-bottom: 50vh;
+}
+
+#bambu{
+    width: 7vw;
+    height: auto;
+    margin-top: 15vh;
+   position:absolute;
+    opacity: 0;
+}
+
+.modal-header{
+    text-align: center;
+   
+}
+
+#pandaTriste{
+    width: 20vw;
+    height: auto;
+    margin-left: 30%;
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+#close{
+    margin-left: 85vw;
+    color: red;
+    background-color: transparent;
+    border: 0px;
+}
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -8vh;
+}

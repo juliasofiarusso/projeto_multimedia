@@ -6,13 +6,18 @@ sessionStorage.setItem ("seg", seconds);
 
 
 
-$("#bambu")
-    .on( "mousedown", function() {
+$("#bambu").on( "mousedown", function() {
     var timer = setInterval(
     function() {
         segundos++;
         console.log(segundos);
+        $("#contador2").text(segundos + 'segundos');
     }, 1000
 );
-    $("#contador2").text(segundos + 'segundos');
+  
   });
+$("#bambu").on( "mouseup", function() {
+      $(this).load("nivel_quinze.html");
+    window.open("nivel_quinze.html","_self");
+}
+);
