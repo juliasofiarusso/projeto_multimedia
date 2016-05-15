@@ -12,18 +12,24 @@ body{
     margin-left: 31vw;
     margin-top: 5vh;
 }
-#botao1, #botao2{
-    width: 7vw;
-    height: auto;
+.botao{
+    width: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3vh;
+    padding: 15%;
 }
-#sombra1 , #sombra2, #sombra3, #sombra4, #sombra5{
+.botao:hover{
+    background: #678a18;
+}
+.sombra{
     width: 4vw;
-    height: auto;
+    height: 14.5vh;
+    padding: 10%;
 
 }
 
 #sombrass{
-     
     margin-left: auto;
     margin-right: auto;   
 }

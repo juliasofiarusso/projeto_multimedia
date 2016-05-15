@@ -5,39 +5,21 @@ body{
     width: 100vw;
 }
 
-#bambu_mini{
- 
-    width: auto;
-    height: 10vh;
-    margin-left: 46vw;
-    margin-top: 2vh;
-    
-    
-}
 #panda{
     
     width: auto;
     height: 25vh;
-    margin-left: 29vw;
-    margin-top: 1vh;
-}
-#canvas {
-    padding: 0;
-    margin: auto;
-    display: block;
-    width: 482px;
-    height: 482px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-left: 31vw;
+    margin-top: 5vh;
 }
 
-#close
-    margin-left: 87vw;
-     margin-top: 0vh;
+#bambu{
+    width: 7vw;
+    height: auto;
+    margin-left: 47vw;
+    margin-top: 15vh;
 }
+
 
 .modal-header{
     text-align: center;
@@ -53,11 +35,10 @@ body{
 .modal-footer{
     text-align: center;
 }
+
 #close{
     margin-left: 85vw;
-}
-#close{
-  color: red;
+    color: red;
     background-color: transparent;
     border: 0px;
 }

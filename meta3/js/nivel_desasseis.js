@@ -16,6 +16,7 @@ if(clicks_botao1==2){
 }
 if(clicks_botao1==3){
    $("#sombra1").attr("src", "imagens/bambu.png");
+    nextLevel();
 }
 });
 
@@ -26,8 +27,15 @@ $("#botao2").on("click", function(){
 }
 if(clicks_botao2==2){
     $("#sombra3").attr("src", "imagens/bambu.png");
+    nextLevel();
 }
 
 });
+function nextLevel(){
+if(clicks_botao1==3 && clicks_botao2==2){
+    $(this).load("nivel_desassete.html");
+    window.open("nivel_desassete.html","_self");    
+}
+}
 
 
