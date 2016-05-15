@@ -59,8 +59,22 @@ body{
       border-radius: 200px;
       background-color:yellow;
       position:absolute;
-      
+      opacity: 0.5;
     }
+
+   #overlay {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-radial-gradient(transparent 400px, rgba(0,0,0,1) 150px);
+  pointer-events: none; /* send mouse events beneath this layer */
+}
+
+
+
+
 
 
 
