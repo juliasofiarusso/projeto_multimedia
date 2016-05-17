@@ -1,0 +1,110 @@
+.center{
+    text-align: center;
+}
+body{
+    width: 100vw;
+}
+
+#panda{
+    width: auto;
+    height: 25vh;
+    margin-left: 31vw;
+    margin-top: -40vh;
+}
+
+#bambu1{
+    width: 5vw;
+    height: auto;
+    margin-left: 40vw;
+    margin-top:-20vh;
+}
+
+
+#bambu2{
+    width: 5vw;
+    height: auto;
+    margin-left: 25vw;
+    margin-top: -15vh;
+}
+
+#bambu3{
+    width: 5vw;
+    height: auto;
+    margin-left: 30vw;
+    margin-top: -12vh;
+}
+
+#bambu_cor1{
+    width: 5vw;
+    height: auto;
+    margin-left: 35vw;
+    margin-top: -15vh;
+}
+
+#bambu_cor2{
+    width: 5vw;
+    height: auto;
+    margin-left: 45vw;
+    margin-top: -50vh;
+}
+
+.modal-header{
+    text-align: center;
+   
+}
+
+#pandaTriste{
+    width: 20vw;
+    height: auto;
+    margin-left: 30%;
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+#close{
+    margin-left: 85vw;
+    color: red;
+    background-color: transparent;
+    border: 0px;
+}
+#contador{
+    margin-right: 5vw;
+    text-align: right;
+    display: block;
+    margin-top: -15vh;
+}
+
+.bambuNormal,
+.bambuCor {
+
+	width: 120px;
+	height: 120px;
+	padding: 0px;    
+}
+
+#bambuTarget {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+    margin-left:15vw;
+    margin-top: 10vh;
+    
+}
+
+#bambu_Target {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+    margin-left:55vw;
+    margin-top: -3.1vh;
+}
+
+#bambuTarget.ok {
+	border: 2px solid blue;
+}
+
+#bambu_Target.ok {
+	border: 2px solid green;
+}
