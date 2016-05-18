@@ -1,25 +1,25 @@
-console.clear();
 
-$(".bambuNormal").draggable({
-	stack: ".bambuNormal",
+$(".draggableEscuro").draggable({
+	stack: ".draggableEscuro",
 	revert: 'invalid' 
 });
 
-$(".bambuCor").draggable({
-	stack: ".bambuCor",
+
+$(".draggableClaro").draggable({
+	stack: ".draggableClaro",
 	revert: 'invalid' 
 });
 
 
 $("#allBambu").droppable();
 
-$("#bambuTarget").droppable({
-	accept: ".bambuNormal",
+$("#draggableEscuro").droppable({
+	accept: ".draggableEscuro",
 	activeClass: "ok",
 });
 
-$("#bambu_Target").droppable({
-	accept: ".bambuCor",
+$("#draggableClaro").droppable({
+	accept: ".draggableClaro",
 	activeClass: "ok",
 });
 
@@ -38,3 +38,32 @@ $(function() {
     window.open("nivel_dezassete.html","_self");
 });
 */
+
+console.clear();
+
+$(".draggableEscuro").draggable({
+	stack: ".draggableEscuro",
+	revert: 'invalid' 
+});
+
+$(".draggableClaro").draggable({
+	stack: ".draggableClaro",
+	revert: 'invalid' 
+});
+
+
+$("#allBambu").droppable();
+
+$("#bambuEscuroTarget").droppable({
+	accept: ".draggableEscuro",
+	hoverClass: "ok",
+	//activeClass: "ok",
+	
+});
+
+$("#bambuClaroTarget").droppable({
+	accept: ".draggableClaro",
+	//hoverClass: "ok",
+	activeClass: "ok",
+	
+});
