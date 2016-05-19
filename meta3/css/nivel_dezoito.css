@@ -9,7 +9,7 @@ body{
     width: auto;
     height: 25vh;
     margin-left: 31vw;
-    margin-top: -40vh;
+    margin-top: 21vh;
 }
 
 
@@ -49,7 +49,6 @@ body{
 	height: 120px;
 	padding: 0px;
 	margin: 0px;
-	border: 1px solid black;
 	float: left;
     
     
@@ -58,37 +57,32 @@ body{
 #bambuEscuro1{
     width: 5vw;
     height: auto;
-    margin-left: 40vw;
-    margin-top:-20vh;
+   
 }
 
 
 #bambuEscuro2{
     width: 5vw;
     height: auto;
-    margin-left: 25vw;
-    margin-top: -15vh;
+   
 }
 
 #bambuEscuro3{
     width: 5vw;
     height: auto;
-    margin-left: 30vw;
-    margin-top: -12vh;
+    
 }
 
 #bambuClaro1{
     width: 5vw;
     height: auto;
-    margin-left: 35vw;
-    margin-top: -15vh;
+  
 }
 
 #bambuClaro2{
     width: 5vw;
     height: auto;
-    margin-left: 45vw;
-    margin-top: -50vh;
+
 }
 
 #bambuEscuroTarget {
@@ -96,6 +90,7 @@ body{
 	height: 200px;
 	border: 1px solid black;
 	float: right;
+    margin-left: 5vw;
 	
 }
 
