@@ -1,11 +1,7 @@
 var total=0;
-var clicks=0;
-var seconds=0;
 
-sessionStorage.setItem ("click", clicks);
-sessionStorage.setItem ("seg", seconds);
+console.clear();
 
-   
 $(".draggableEscuro").draggable({
 	stack: ".draggableEscuro",
 	revert: 'invalid' 
@@ -16,8 +12,6 @@ $(".draggableClaro").draggable({
 	revert: 'invalid' 
 });
 
-
-    });
 
 $("#allBambu").droppable();
 
@@ -30,6 +24,8 @@ $("#bambuEscuroTarget").droppable({
         verifica();
     }
 });
+
+
 $("#bambuClaroTarget").droppable({
 	accept: ".draggableClaro",
 	//hoverClass: "ok",
@@ -39,15 +35,13 @@ $("#bambuClaroTarget").droppable({
         verifica();
     }
    
-
- 
-   
-
+    
+});
 
 
 function verifica(){
     console.log("verifica");
-    if(total==10){
+    if(total==5){
           $(this).load("final1.html");
     window.open("final1.html","_self");
     }
