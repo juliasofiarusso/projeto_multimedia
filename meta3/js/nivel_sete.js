@@ -14,7 +14,7 @@ $("#bambu").on("click", function(){
     }
     if (clicks_bambu==11){
     $(this).load("nivel_oito.html");
-    window.open("nivel_oito.html");
+    window.open("nivel_oito.html","_self");
 }
 });
 

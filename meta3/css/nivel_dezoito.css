@@ -9,10 +9,8 @@ body{
     width: auto;
     height: 25vh;
     margin-left: 31vw;
-    margin-top: 21vh;
+    margin-top: 17vh;
 }
-
-
 
 .modal-header{
     text-align: center;
@@ -50,6 +48,8 @@ body{
 	padding: 0px;
 	margin: 0px;
 	float: left;
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
@@ -57,20 +57,34 @@ body{
 #bambuEscuro1{
     width: 5vw;
     height: auto;
-   
 }
 
 
 #bambuEscuro2{
     width: 5vw;
     height: auto;
-   
+  
 }
 
 #bambuEscuro3{
     width: 5vw;
-    height: auto;
+    height: auto; 
+  
+}
+
+#bambuEscuro4{
+    width: 5vw;
+    height: auto;     
     
+}
+#bambuEscuro5{
+    width: 5vw;
+    height: auto;
+ 
+}
+#bambuEscuro6{
+    width: 5vw;
+    height: auto; 
 }
 
 #bambuClaro1{
@@ -84,25 +98,38 @@ body{
     height: auto;
 
 }
+#bambuClaro3{
+    width: 5vw;
+    height: auto;
+   
+
+}
+#bambuClaro4{
+    width: 5vw;
+    height: auto;
+
+}
 
 #bambuEscuroTarget {
 	width: 200px;
 	height: 200px;
-	border: 1px solid black;
-	float: right;
-    margin-left: 5vw;
-	
+	border: 2px solid black;
+	float: left;
+    margin-left: 10vw;
+	margin-right: 5vw;
 }
 
 #bambuClaroTarget {
 	width: 200px;
 	height: 200px;
-	border: 1px solid black;
+	border: 2px solid black;
 	float: right;
+     margin-right: 10vw;
+
 }
 
 #bambuEscuroTarget.ok {
-	border: 2px solid blue;
+	border: 2px solid olive;
 }
 
 #bambuClaroTarget.ok {

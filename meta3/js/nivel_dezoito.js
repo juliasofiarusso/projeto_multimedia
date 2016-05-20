@@ -1,46 +1,11 @@
 var total=0;
-$(".draggableEscuro").draggable({
-	stack: ".draggableEscuro",
-	revert: 'invalid' 
-});
+var clicks=0;
+var seconds=0;
 
+sessionStorage.setItem ("click", clicks);
+sessionStorage.setItem ("seg", seconds);
 
-$(".draggableClaro").draggable({
-	stack: ".draggableClaro",
-	revert: 'invalid' 
-});
-
-
-$("#allBambu").droppable();
-
-$("#draggableEscuro").droppable({
-	accept: ".draggableEscuro",
-	activeClass: "ok",
-});
-
-$("#draggableClaro").droppable({
-	accept: ".draggableClaro",
-	activeClass: "ok",
-});
-
-/*
-$(function() {
-    $( "#allBambu" ).draggable();
-    $( "#bambuTarget" ).droppable({
-    accept: "#bambuTarget",
-        
-         $( "#allBambu" ).draggable();
-    $( "#bambu_Target" ).droppable({
-    accept: "#bambuTarget",
-        
-      
-    $(this).load("nivel_dezasste.html");
-    window.open("nivel_dezassete.html","_self");
-});
-*/
-
-console.clear();
-
+   
 $(".draggableEscuro").draggable({
 	stack: ".draggableEscuro",
 	revert: 'invalid' 
@@ -51,6 +16,8 @@ $(".draggableClaro").draggable({
 	revert: 'invalid' 
 });
 
+
+    });
 
 $("#allBambu").droppable();
 
@@ -63,8 +30,6 @@ $("#bambuEscuroTarget").droppable({
         verifica();
     }
 });
-
-
 $("#bambuClaroTarget").droppable({
 	accept: ".draggableClaro",
 	//hoverClass: "ok",
@@ -74,13 +39,15 @@ $("#bambuClaroTarget").droppable({
         verifica();
     }
    
-    
-});
+
+ 
+   
+
 
 
 function verifica(){
     console.log("verifica");
-    if(total==5){
+    if(total==10){
           $(this).load("final1.html");
     window.open("final1.html","_self");
     }
