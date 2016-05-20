@@ -10,7 +10,7 @@ body{
     width: auto;
     height: 25vh;
     margin-left: 31vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 #bambu{
@@ -47,4 +47,9 @@ body{
     text-align: right;
     display: block;
     margin-top: -8vh;
+}
+
+h1{
+    text-align: center;
+    
 }

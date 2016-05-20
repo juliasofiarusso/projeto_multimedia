@@ -1,7 +1,12 @@
 
-var t= sessionStorage.getItem("click");
-var c= sessionStorage.getItem("seg");
+var c= sessionStorage.getItem("click");
+var t= sessionStorage.getItem("seg");
  console.log("tempo: "+ t + "clicks: " + c);
-$("#frase").text("Fizeste "+ c.toString() +" clicks");
+$("#frase").text("Fizeste "+ c.toString() +" clicks em"+ t + "segundos");
+
+$("#bambu").on("click", function(){
+    $(this).load("final2.html");
+    window.open("final2.html","_self");
+});
 
        
