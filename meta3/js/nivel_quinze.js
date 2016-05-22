@@ -16,11 +16,11 @@ $(document).ready(function (){
             function(){
                 if(i<4){
                 x=parseInt(Math.random() * 3);
-                console.log(x);
+        //        console.log(x);
     $(bambus[x]).animate({opacity: "1"});   
     $(bambus[x]).animate({opacity: "0"});
    sequencia[i]=x;
-console.log("seq: " + sequencia[i]);
+//console.log("seq: " + sequencia[i]);
                     i++;
             }
                     else{
@@ -35,7 +35,7 @@ console.log("seq: " + sequencia[i]);
 
             },1000);
     
-      
+      }
       
    /* setTimeout(
         function(){
@@ -46,10 +46,9 @@ $("#bambu3").animate({opacity: "1"});
             jogo();
         },5000);*/
     
-  }
+  
     
   function jogo(){
-      
       $(".bambu").on("click", function(){
     $(this).animate({opacity: "0"}); 
     $(this).animate({opacity: "1"}); 
@@ -62,55 +61,104 @@ $("#bambu3").animate({opacity: "1"});
         $("#bambu").on("click", function(){
   sequencia_click[a]=0; 
             if(a==3){
-              verifica();
+                console.log("chama a final")
+              final();
           }
- console.log("sequencia click" +sequencia_click[a]);
+        
         });
         $("#bambu2").on("click", function(){
   sequencia_click[a]=1; 
             if(a==3){
-              verifica();
+                console.log("chama a final")
+              final();
           }
-            
- console.log("sequencia click" +sequencia_click[a]);
+   
         });
         $("#bambu3").on("click", function(){
   sequencia_click[a]=2; 
             if(a==3){
-              verifica();
+                console.log("chama a final")
+             final();
           }
-            
- console.log("sequencia click" +sequencia_click[a]);
         });
+      
+  }
+    $("#repetir").on("click", function(){
+        console.log("repetir");
+     $("#bambu").animate({opacity: "1"});  
+    $("#bambu2").animate({opacity: "1"});  
+    $("#bambu3").animate({opacity: "1"});  
+      var p=0;
+                setInterval(
+             function(){
+     $(bambus[sequencia[p]]).animate({opacity: "1"});
+    $(bambus[sequencia[p]]).animate({opacity: "0"});   
+    $(bambus[sequencia[p]]).animate({opacity: "1"});
+    console.log("repetir seq" + i);
+                 p++;
+            },1000);
+             
+    });
+
+
+
+      function final(){
+          if(verifica()==true){
+              $("#texto").text("Ganhaste!");
+               $(this).load("nivel_desasseis.html");
+              window.open("nivel_desasseis.html","_self");              
+          }
+          if(verifica()==false){
+               $("#texto").text("Tenta outra vez!");
+              a=-1;
+              pontos=0;
+              i=0;             
+              
+          }
+          
+      }
       
      function verifica(){
          
           for(var i=0; i<4; i++){
-               console.log("sequencia click" +sequencia_click[i]+"sequencia" +sequencia[i]);
+            //   console.log("sequencia click" +sequencia_click[i]+"sequencia" +sequencia[i]);
               if(sequencia_click[i]==sequencia[i]){
                   pontos++;
-                  if(pontos==4){
-                      $("#texto").text("Ganhaste!");
-                      $(this).load("nivel_desasseis.html");
-    window.open("nivel_desasseis.html","_self");
-                  }
+               console.log("pontos" +pontos);
               }
-          else{
-           $("#texto").text("Tenta outra vez!");
-              repetir();
-               
-   
-          }}
+              else{
+                  return false;
+              }
+          }
+         
+         if(pontos==4){
+                   return true 
+                  }
+      
+          
       } 
-      }
+      
+/*
 function repetir(){
+
+
+
+  
+
+
+
+
+
       for(var i=0; i<4; i++){
-               $(bambus[i]).css({opacity: "0"}); 
+               $(bambus[i]).css({opacity: "1"}); 
+           pontos=0;
+              a=0;
+              sequencia_click=0;
    
           }
-     for(var i=0; i<4; i++){
+ /*    for(var i=0; i<4; i++){
      $(bambus[sequencia[i]]).animate({opacity: "1"});   
     $(bambus[sequencia[i]]).animate({opacity: "0"});
     
-}}
+}}*/
       

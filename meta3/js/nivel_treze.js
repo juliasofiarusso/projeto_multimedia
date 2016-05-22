@@ -1,6 +1,7 @@
 var total=0;
 var click=new Array();
 
+
 $(".bambu").on("click", function(e){
     console.log(".bambu");
     total++;
