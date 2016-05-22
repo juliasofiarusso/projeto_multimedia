@@ -19,7 +19,7 @@ body{
 #bambu{
     width: 7vw;
     height: auto;
-    margin-left: 47vw;
+    margin-left: 77vw;
     margin-top: 15vh;
 }
 
@@ -53,14 +53,6 @@ body{
 }
 
 
- #circle {
-      width: 200px;
-      height: 200px;
-      border-radius: 200px;
-      background-color:yellow;
-      position:absolute;
-      opacity: 0.5;
-    }
 
    #overlay {
   top: -0%;
@@ -68,7 +60,7 @@ body{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background: -webkit-radial-gradient(transparent 200px, rgba(0,0,0,1) 150px);
+  background: -webkit-radial-gradient(transparent 100px, rgba(0,0,0,1) 50px);
 
   pointer-events: none; /* send mouse events beneath this layer */
 

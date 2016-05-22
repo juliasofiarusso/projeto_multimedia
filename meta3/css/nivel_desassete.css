@@ -19,6 +19,7 @@ body{
     height: auto;
     margin-top: 15vh;
     margin-left: 0vw;
+    position: absolute;
 }
 
 #close
@@ -52,5 +53,5 @@ body{
     margin-right: 5vw;
     text-align: right;
     display: block;
-    margin-top: -8vh;
+    margin-top: 70vh;
 }

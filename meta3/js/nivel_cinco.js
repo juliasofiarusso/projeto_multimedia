@@ -3,14 +3,14 @@ $(document).ready(function(){
   var $moveable = $('#circle');
     var $preto =$("#overlay");
 
-
-    $preto.css("background-size",$(window).width()*2+"px "+$(window).width()*2+"px "); //mesma largura que altura (igual ao dobro da largura da janela)
+    $preto.css("background-size",$(window).width()*2+"px "+$(window).width()*2+"px ");
+   //mesma largura que altura (igual ao dobro da largura da janela)
+    
 
     //alterar pos para centrar
     $preto.css("background-position-x",(-$(window).width()/2)+"px");
     $preto.css("background-position-y",(-$(window).width()/2)+"px");
-
-
+  
   $(document).mousemove(function(e){
       //$moveable.css({'top': e.pageY-100,'left': e.pageX-100});
       console.log("tes"+e.pageY);
@@ -18,10 +18,11 @@ $(document).ready(function(){
 
 
       $preto.css("background-size",$(window).width()*2+"px "+$(window).width()*2+"px ");
-
+   
       //mudar a pos consoante o rato
       $preto.css("background-position-x",(e.pageX-$(window).width()/2-$(window).width()/2)+"px");
       $preto.css("background-position-y",(e.pageY-$(window).width()/2-$(window).width()/2)+"px");
+  
 
   });
 });
