@@ -6,7 +6,7 @@ body{
 }
 
 #panda{
-    
+
     width: auto;
     height: 25vh;
     margin-left: 31vw;
@@ -16,17 +16,15 @@ body{
 .bambu{
     width: auto;
     height: 15.5vh;
-    padding: 7%;
+    padding: 1px;
     opacity: 1;
 }
 .bambuclicked{
-     width: auto;
-    height: 15.5vh;
-    padding: 7%;
+
     opacity: 0;
 }
 #bambus{
-    
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,7 +32,7 @@ body{
 
 .modal-header{
     text-align: center;
-   
+
 }
 
 #pandaTriste{
