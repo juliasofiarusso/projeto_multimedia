@@ -1,8 +1,3 @@
-var clicks=0;
-var seconds=0;
-sessionStorage.setItem ("click", clicks);
-sessionStorage.setItem ("seg", seconds);
-
 
 var clicks_bambu=0;
 $("#bambu").on("click", function(){

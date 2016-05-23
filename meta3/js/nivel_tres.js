@@ -1,9 +1,4 @@
-var clicks=0;
-var seconds=0;
 var inc=15;
-sessionStorage.setItem ("click", clicks);
-sessionStorage.setItem ("seg", seconds);
-
 $(document).ready(function(){
     
 $("#panda").on("click", function(){

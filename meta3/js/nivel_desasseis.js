@@ -1,11 +1,3 @@
-var clicks=0;
-var seconds=0;
-var clicks_botao1=0;
-var clicks_botao2=0;
-
-sessionStorage.setItem ("click", clicks);
-sessionStorage.setItem ("seg", seconds);
-
 $("#botao1").on("click", function(){
     clicks_botao1++;
     if(clicks_botao1==1){
