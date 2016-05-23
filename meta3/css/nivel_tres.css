@@ -30,7 +30,7 @@ body{
      width: auto;
     height: 30vh;
     margin-left: -17vw;
-    margin-top: 53.3vh;
+    margin-top: 52.7vh;
     position: absolute;
 }
 
@@ -45,12 +45,6 @@ body{
 .modal-header{
     text-align: center;
    
-}
-
-#pandaTriste{
-    width: 20vw;
-    height: auto;
-    margin-left: 30%;
 }
 
 .modal-footer{
@@ -68,4 +62,31 @@ body{
     margin-left: 88.45vw;
     margin-top: 22.4vh;
     position: absolute;
+}
+
+h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-content{
+    background-color: #87D37C;
+}
+
+#close{
+    margin-left: 87vw;
+    margin-top: 1vh;
+    color: red;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+      font-weight: bold;
+}
+
+#pandaTriste{
+    width: 50vw;
+    height: auto;
+    margin-left: -5vw;
 }

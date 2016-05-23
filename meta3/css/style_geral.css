@@ -45,11 +45,7 @@ body{
    
 }
 
-#pandaTriste{
-    width: 50vw;
-    height: auto;
-    margin-left: -5vw;
-}
+
 
 .modal-footer{
     text-align: center;
@@ -84,7 +80,24 @@ h4{
 }
 
 .modal-content{
-    background-color: #E74C3C;
+    background-color: #87D37C;
+}
+
+#close{
+    margin-left: 87vw;
+    margin-top: 1vh;
+    color: red;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+      font-weight: bold;
+}
+
+#pandaTriste{
+    width: 50vw;
+    height: auto;
+    margin-left: -5vw;
 }
 
 
