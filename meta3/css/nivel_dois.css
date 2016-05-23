@@ -1,35 +1,55 @@
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+body {
+    background-color: #87D37C;
+}
+
+div,h1 {
+  font-family: 'Roboto Slab', serif;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
 .center{
     text-align: center;
 }
 body{
     width: 100vw;
 }
-
+h2{
+    text-align: right;
+    font-size: 25px;
+}
 #panda{
     
     width: auto;
-    height: 25vh;
-    margin-left: 31vw;
-    margin-top: 5vh;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: -1vh;
 }
 
-
-.bambu{
-    width: auto;
-    height: 15.5vh;
-    padding: 7%;
+#bambu{
+    width: 6vw;
+    height: auto;
+    padding: 2%;
     opacity: 1;
 }
+
+#bambu2{
+    width: 6vw;
+    height: auto;
+    padding: 2%;
+    opacity: 1;
+}
+
 #bambus{
     
     margin-left: auto;
     margin-right: auto;
 }
-#close
-    margin-left: 87vw;
-     margin-top: 0vh;
-}
-
 .modal-header{
     text-align: center;
    
@@ -44,10 +64,9 @@ body{
 .modal-footer{
     text-align: center;
 }
+
 #close{
-    margin-left: 85vw;
-}
-#close{
+      margin-left: 85vw;
   color: red;
     background-color: transparent;
     border: 0px;

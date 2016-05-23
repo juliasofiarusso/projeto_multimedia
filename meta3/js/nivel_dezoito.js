@@ -1,7 +1,5 @@
 var total=0;
 
-console.clear();
-
 $(".draggableEscuro").draggable({
 	stack: ".draggableEscuro",
 	revert: 'invalid' 

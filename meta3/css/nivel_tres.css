@@ -1,3 +1,23 @@
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+div,h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #87D37C;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: right;
+    font-size: 25px;
+}
 .center{
     text-align: center;
 }
@@ -7,18 +27,18 @@ body{
 
 #panda{
     
-    width: auto;
-    height: 25vh;
-    margin-left: -23vw;
-    margin-top: 50vh;
+      width: auto;
+    height: 30vh;
+    margin-left: -17vw;
+    margin-top: 54vh;
     position: absolute;
 }
 
 #bambu{
-    width: 7vw;
+     width: 15vw;
     height: auto;
-    margin-left: 47vw;
-  margin-top: 15vh;
+    margin-left: 42vw;
+    margin-top: 4.9vh;
     
 }
 
@@ -46,7 +66,7 @@ body{
 }
 #contador{
     text-align: right;
-    margin-left: 23vw;
-    margin-top: 50vh;
+    margin-left: 88vw;
+    margin-top: 25vh;
     position: absolute;
 }

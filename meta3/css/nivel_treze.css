@@ -15,10 +15,11 @@ body{
 
 .bambu{
     width: auto;
-    height: 15.5vh;
+    height: 19vh;
     padding: 1px;
     opacity: 1;
 }
+
 .bambuclicked{
 
     opacity: 0;

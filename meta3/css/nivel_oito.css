@@ -1,3 +1,25 @@
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+div,h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #87D37C;
+}
+
+h2{
+    text-align: right;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;   
+}
+
 .center{
     text-align: center;
 }
@@ -5,20 +27,17 @@ body{
     width: 100vw;
 }
 
-h1{
-    margin-top: 0vw;
-    position: inline-block;
-}
 
 #panda{
-   width: auto;
-    height: 25vh;
-    margin-left: 32vw;
-    margin-top: 56.5vh;
+   
+    width: auto;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: 54vh;
 }
 
 
-#bambubaby{
+#bambu{
    width: 1vw;
    height: auto;
    margin-left: -3.5vw;
