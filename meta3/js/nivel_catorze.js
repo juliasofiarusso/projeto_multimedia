@@ -1,4 +1,4 @@
-
+var segundos=0;
 $("#bambu").on( "mousedown", function() {
     var timer = setInterval(
     function() {
