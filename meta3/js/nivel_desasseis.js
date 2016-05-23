@@ -1,3 +1,7 @@
+var clicks_botao1=0;
+var clicks_botao2=0;
+
+
 $("#botao1").on("click", function(){
     clicks_botao1++;
     if(clicks_botao1==1){
