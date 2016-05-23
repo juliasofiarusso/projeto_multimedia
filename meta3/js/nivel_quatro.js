@@ -2,7 +2,7 @@
 var clicks_bambu=0;
 
 $("#bambu").on("click", function(){
-    $("#bambu").css({"margin-left": "44vw"});
+    $("#bambu").css({"margin-left": "43.8vw"});
     clicks_bambu++;
     if(clicks_bambu==1){
     this.src = 'imagens/bambu_sem1-05.png';

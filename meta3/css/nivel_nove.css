@@ -27,10 +27,10 @@ body{
 }
 
 #panda{
-  width: auto;
+ width: auto;
     height: 30vh;
     margin-left: 40vw;
-    margin-top: 17vh;
+    margin-top: 15.9vh;
 }
 
 #bambu1 {
@@ -100,5 +100,4 @@ body{
     text-align: right;
     display: block;
     margin-top: -8vh;
-    font-size: 25px;
 }

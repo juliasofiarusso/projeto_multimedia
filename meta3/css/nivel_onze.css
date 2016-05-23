@@ -1,23 +1,32 @@
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+div,h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #87D37C;
+}
+
 .center{
     text-align: center;
 }
 body{
     width: 100vw;
 }
-
-#panda{
-    
-    width: auto;
-    height: 25vh;
-    margin-left: 31vw;
-    margin-top: 5vh;
+h2{
+    text-align: right;
+    font-size: 20px;
 }
 
-#bambu{
-    width: 7vw;
-    height: auto;
-    margin-left: 47vw;
-    margin-top: 15vh;
+#panda{
+   width: auto;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: -1.9vh;
 }
 
 
@@ -50,13 +59,20 @@ body{
 }
 #bambus{
   margin-top: 7vh;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 #bambu_menor{
-    width: 4vw;
+    width: 6vw;
     height: auto;
+    
 }
 #bambu_maior{
-    width: 9vw;
+    width: 15vw;
     height: auto;
+    margin-top: 1vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
 }

@@ -4,7 +4,7 @@ $("#bambu").on( "mousedown", function() {
     function() {
         segundos++;
         console.log(segundos);
-        $("#contador2").text(segundos + 'segundos');
+        $("#contador2").text(segundos + ' segundos');
     }, 1000
 );
   

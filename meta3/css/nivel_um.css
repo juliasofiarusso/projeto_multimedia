@@ -10,7 +10,6 @@ div,h1 {
 
 body {
     background-color: #87D37C;
-    overflow: hidden;
 }
 
 .center{
@@ -21,23 +20,22 @@ body{
 }
 h2{
     text-align: right;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #panda{
+  width: auto;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: 0.3vh;   
     
-    width: auto;
-    height: 25vh;
-    margin-left: 31vw;
-    margin-top: 5vh;
-    position: fixed;
 }
 
 #bambu{
-    width: 7vw;
+   width: 15vw;
     height: auto;
-    margin-left: 47vw;
-    margin-top: 15vh;
+    margin-left: 42vw;
+    margin-top: 4.9vh;
 }
 
 #close
@@ -59,18 +57,16 @@ h2{
 .modal-footer{
     text-align: center;
 }
-#close{
-    margin-left: 85vw;
-}
+
 #close{
   color: red;
     background-color: transparent;
     border: 0px;
+     margin-left: 85vw;
 }
 
 #contador{
-    margin-right:10 vw;
-  
+    margin-right:3vw;
     display: block;
     margin-top: -8vh;
 }

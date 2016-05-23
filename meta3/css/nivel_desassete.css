@@ -1,31 +1,44 @@
+
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+div,h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #87D37C;
+}
+
 .center{
     text-align: center;
 }
 body{
     width: 100vw;
 }
+h2{
+    text-align: right;
+    font-size: 20px;
+}
 
 #panda{
+  width: auto;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: 53.3vh;   
     
-    width: auto;
-    height: 25vh;
-    margin-left: 31vw;
-    margin-top: 50vh;
-    position: fixed;
 }
 
 #bambu{
-    width: 7vw;
+    width: 15vw;
     height: auto;
     margin-top: 15vh;
     margin-left: 0vw;
     position: absolute;
 }
 
-#close
-    margin-left: 87vw;
-     margin-top: 0vh;
-}
 
 .modal-header{
     text-align: center;
@@ -43,15 +56,17 @@ body{
 }
 #close{
     margin-left: 85vw;
-}
-#close{
   color: red;
     background-color: transparent;
     border: 0px;
 }
 #contador{
-    margin-right: 5vw;
-    text-align: right;
+   margin-right:3vw;
     display: block;
-    margin-top: 70vh;
+    margin-top: -8vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
 }

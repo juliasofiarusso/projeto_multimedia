@@ -1,23 +1,40 @@
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+div,h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #87D37C;
+}
+
 .center{
     text-align: center;
 }
 body{
     width: 100vw;
 }
+h2{
+    text-align: right;
+    font-size: 20px;
+}
 
 #panda{
+  width: auto;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: 6.7vh;   
     
-    width: auto;
-    height: 25vh;
-    margin-left: 31vw;
-    margin-top: 5vh;
 }
 .botao{
     width: 3vw;
-    margin-left: auto;
+    margin-left: 0.7vw;
     margin-right: auto;
     height: 3vh;
-    padding: 15%;
+    padding: 1%;
 }
 .botao:hover{
     background: #678a18;
@@ -34,10 +51,6 @@ body{
     margin-right: auto;   
 }
 
-#close
-    margin-left: 87vw;
-     margin-top: 0vh;
-}
 
 .modal-header{
     text-align: center;
@@ -53,10 +66,9 @@ body{
 .modal-footer{
     text-align: center;
 }
+
 #close{
     margin-left: 85vw;
-}
-#close{
   color: red;
     background-color: transparent;
     border: 0px;
@@ -66,4 +78,9 @@ body{
     text-align: right;
     display: block;
     margin-top: -8vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
 }
