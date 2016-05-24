@@ -10,6 +10,12 @@ div,h1 {
 
 body {
     background-color: #87D37C;
+    overflow:hidden; 
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .center{

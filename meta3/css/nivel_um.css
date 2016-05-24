@@ -10,6 +10,11 @@ div,h1 {
 
 body {
     background-color: #87D37C;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .center{
@@ -36,6 +41,7 @@ h2{
     height: auto;
     margin-left: 42vw;
     margin-top: 4.9vh;
+    
 }
 
 #close
