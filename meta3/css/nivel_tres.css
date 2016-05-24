@@ -9,6 +9,7 @@ div,h1 {
 
 body {
     background-color: #87D37C;
+ /*   overflow:hidden; */
 }
 h1{
     text-align: center;
@@ -38,7 +39,7 @@ body{
      width: 15vw;
     height: auto;
     margin-left: 42vw;
-    margin-top: 4.9vh;   
+    margin-top: 4.9vh; 
 }
 
 
@@ -59,9 +60,8 @@ body{
 }
 #contador{
     text-align: right;
-    margin-left: 88.45vw;
-    margin-top: 22.4vh;
-    position: absolute;
+    margin-right: 5vw;
+    margin-top: -8vh;
 }
 
 h4{
