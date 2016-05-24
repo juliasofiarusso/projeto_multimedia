@@ -11,7 +11,7 @@ $(".bambu").on("click", function(e){
     $(this).addClass('bambuclicked');
     //$(this).attr('class', 'bambuclicked');
     console.log("total: "+total+" "+e.target);
-    if(total==33){
+    if(total==21){
         $(this).load("nivel_catorze.html");
         window.open(" nivel_catorze.html","_self");
     }
