@@ -24,7 +24,11 @@ var timer = setInterval(
     }, 1000
 );
 
-
+$("#homepage").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#second").offset().top},
+        'slow');
+});
 $("#desistir").on("click",function(){
             $(this).load("final1.html");
     window.open("final1.html","_self");

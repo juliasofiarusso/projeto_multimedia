@@ -1,0 +1,29 @@
+#homepage{
+width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+   
+}
+
+#second{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+@font-face {
+ font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+#panda{
+  width: auto;
+    height: 30vh;
+    margin-left: 40vw;
+    margin-top: 0.3vh;   
+    position: relative;
+    
+}

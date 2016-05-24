@@ -104,9 +104,13 @@ $("#bambu3").animate({opacity: "1"});
 
       function final(){
           if(verifica()==true){
-              $("#texto").text("Ganhaste!");
-               $(this).load("nivel_desasseis.html");
-              window.open("nivel_desasseis.html","_self");              
+               $("#texto").text("Ganhaste!");
+              setTimeout(
+            function(){
+             
+                passar()
+            },2000);
+                        
           }
           if(verifica()==false){
                $("#texto").text("Tenta outra vez!");
@@ -117,7 +121,12 @@ $("#bambu3").animate({opacity: "1"});
           }
           
       }
-      
+       function passar(){
+                  
+             $(this).load("nivel_desasseis.html");
+             window.open("nivel_desasseis.html","_self");        
+                  
+              }
      function verifica(){
          
           for(var i=0; i<4; i++){
