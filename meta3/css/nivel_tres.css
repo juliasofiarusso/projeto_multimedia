@@ -9,7 +9,7 @@ div,h1 {
 
 body {
     background-color: #87D37C;
- /*   overflow:hidden; */
+    overflow:hidden; 
 }
 h1{
     text-align: center;
@@ -61,7 +61,7 @@ body{
 #contador{
     text-align: right;
     margin-right: 5vw;
-    margin-top: -8vh;
+    margin-top: 20vh;
 }
 
 h4{

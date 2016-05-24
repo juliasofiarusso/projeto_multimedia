@@ -1,5 +1,5 @@
 var inc=15;
-var inc2=0;
+var inc2=10;
 $(document).ready(function(){
     
 $("#panda").on("click", function(){
@@ -11,7 +11,7 @@ if(inc==55){
     window.open("nivel_quatro.html","_self");
 }
      console.log("TOP:" +inc);
-    $('#bambu').animate({ marginTop: inc+"vh" });
+   $('#bambu').animate({ marginTop: inc+"vh" });
     $('#contador').animate({ marginTop: inc2+"vh" });
     });
 
