@@ -3,14 +3,25 @@
  font-family: 'Roboto Slab', serif;
     font-weight: bold;
 }
+html{
+    overflow: hidden;
+}
+#homepage{
+width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+   
+}
 
+#second{
+    width: 100vw;
+    height: 100vh;
+    background-color: #87D37C;
+}
 div,h1 {
   font-family: 'Roboto Slab', serif;
 }
 
-body {
-    background-color: #87D37C;
-}
 
 .center{
     text-align: center;
@@ -27,7 +38,7 @@ h2{
   width: auto;
     height: 30vh;
     margin-left: 40vw;
-    margin-top: 0.3vh;   
+    margin-top: 2vh;   
     
 }
 
@@ -35,10 +46,10 @@ h2{
    width: 15vw;
     height: auto;
     margin-left: 42vw;
-    margin-top: 4.9vh;
+    margin-top: 20vh;
 }
 
-#close
+#close{
     margin-left: 87vw;
      margin-top: 0vh;
 }
@@ -69,22 +80,12 @@ h2{
 h1{
     text-align: center;
     font-size: 30px;
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 40vw;
 }
 
-.modal-content{
-    background-color: #87D37C;
-}
-
-#close{
-    margin-left: 87vw;
-    margin-top: 1vh;
-    color: red;
-    background-color: transparent;
-    border: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-}
+.
 
 h4{
     text-align: center;
@@ -95,4 +96,5 @@ h4{
     width: 50vw;
     height: auto;
     margin-left: -5vw;
+    margin-top: 60vh;;
 }
