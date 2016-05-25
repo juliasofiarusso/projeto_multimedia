@@ -22,7 +22,6 @@ div,h1 {
   font-family: 'Roboto Slab', serif;
 }
 
-<<<<<<< HEAD
 body {
     background-color: #87D37C;
     -khtml-user-select: none;
@@ -31,8 +30,6 @@ body {
     -webkit-user-select: none;
     user-select: none;
 }
-=======
->>>>>>> 42d53e3258087b9e275768095ab43f9077cc2669
 
 .center{
     text-align: center;
@@ -57,12 +54,7 @@ h2{
    width: 15vw;
     height: auto;
     margin-left: 42vw;
-<<<<<<< HEAD
-    margin-top: 4.9vh;
-    
-=======
     margin-top: 20vh;
->>>>>>> 42d53e3258087b9e275768095ab43f9077cc2669
 }
 
 #close{
