@@ -33,7 +33,7 @@ h2{
   width: auto;
     height: 30vh;
     margin-left: 40vw;
-    margin-top: 52.7vh;   
+    margin-top: 33vh;   
     
 }
 
@@ -98,4 +98,11 @@ h4{
     width: 50vw;
     height: auto;
     margin-left: -5vw;
+}
+
+#meta{
+    width: 15vw;
+    height: auto;
+    margin-left: 85vw;
+   
 }
