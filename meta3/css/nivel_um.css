@@ -9,7 +9,7 @@ html{
 #homepage{
 width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color: #44a236;
    
 }
 
@@ -44,9 +44,23 @@ h2{
 }
 
 h3{
+    color: white;
     text-align: center;
     font-size: 50px;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 18vh;
 }
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 44vw;
+    margin-top: 28vh;
+}
+
 
 #panda{
   width: auto;
@@ -56,6 +70,16 @@ h3{
     
 }
 
+#pandaf{
+  width: auto;
+    height: 60vh;
+    margin-left: 26vw;
+    margin-top: 42vh;   
+}
+
+#pandafeliz{
+    
+}
 #bambu{
    width: 15vw;
     height: auto;
