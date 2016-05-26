@@ -3,7 +3,9 @@ var clicks_botao2=0;
 
 
 $("#botao1").on("click", function(){
+    if(clicks_botao1<3){
     clicks_botao1++;
+    }
     if(clicks_botao1==1){
     $("#sombra4").attr("src", "imagens/flatbambu-04.png");
         
@@ -18,7 +20,9 @@ if(clicks_botao1==3){
 });
 
 $("#botao2").on("click", function(){
+    if(clicks_botao2<2){
     clicks_botao2++;
+    }
     if(clicks_botao2==1){
     $("#sombra5").attr("src", "imagens/flatbambu-04.png");
 }
