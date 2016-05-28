@@ -1,5 +1,6 @@
 var total=0;
 
+ $("#allBambu").on("click", function(){
 $(".draggableEscuro").draggable({
 	stack: ".draggableEscuro",
 	revert: 'invalid' 
@@ -10,6 +11,7 @@ $(".draggableClaro").draggable({
 	revert: 'invalid' 
 });
 
+});
 
 $("#allBambu").droppable();
 
@@ -38,9 +40,11 @@ $("#bambuClaroTarget").droppable({
 
 
 function verifica(){
+   
     console.log("verifica");
     if(total==10){
           $(this).load("final1.html");
     window.open("final1.html","_self");
     }
+       
 }
