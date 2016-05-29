@@ -1,17 +1,35 @@
 var total=0;
-
- $("#allBambu").on("click", function(){
+var clicks;
+var c=1;
 $(".draggableEscuro").draggable({
 	stack: ".draggableEscuro",
-	revert: 'invalid' 
+    revert: function(valid) {
+        if(valid) {
+       
+        }
+        else {
+           click();
+        }
+        return !valid;
+    }
+   
 });
+
+    
 
 $(".draggableClaro").draggable({
 	stack: ".draggableClaro",
-	revert: 'invalid' 
+	    revert: function(valid) {
+        if(valid) {
+       
+        }
+        else {
+           click();
+        }
+        return !valid;
+    }
 });
 
-});
 
 $("#allBambu").droppable();
 
@@ -19,9 +37,10 @@ $("#bambuEscuroTarget").droppable({
     
 	accept: ".draggableEscuro",
 	hoverClass: "ok",
-    drop: function() {
+    drop: function() {   
        total++;
         verifica();
+        click();
     }
 });
 
@@ -33,6 +52,7 @@ $("#bambuClaroTarget").droppable({
      drop: function() {
        total++;
         verifica();
+         click();
     }
    
     
@@ -47,4 +67,12 @@ function verifica(){
     window.open("final1.html","_self");
     }
        
+}
+
+function click(){
+     clicks=sessionStorage.getItem("click");
+         clicks++;  
+     sessionStorage.setItem ("click", clicks);
+      $("#contador").text('Clicks: ' + clicks);
+    c=1;
 }
