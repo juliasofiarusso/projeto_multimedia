@@ -17,6 +17,9 @@ body {
     -webkit-user-select: none;
     user-select: none;
 }
+#comsom{
+    opacity: 0;
+}
 
 .center{
     text-align: center;
